@@ -2,7 +2,7 @@
 # 创建或编辑 .gitignore 文件
 在你的项目根目录下创建一个名为 .gitignore 的文件（如果还没有的话）。
 打开 .gitignore 文件并添加以下内容：
-node_modules/
+/node_modules
 # 移除已跟踪的 node_modules 文件夹（如果有）
 如果你之前已经将 node_modules 添加到了 Git 仓库中，你需要先移除它。可以使用以下命令
 git rm -r --cached node_modules
